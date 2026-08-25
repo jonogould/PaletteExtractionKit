@@ -1,5 +1,8 @@
 version: 1
+metadata:
+  authors: Jono Gould
 builder:
   configs:
     - documentation_targets: [PaletteExtractionKit]
       platform: ios
+      swift_version: 6
