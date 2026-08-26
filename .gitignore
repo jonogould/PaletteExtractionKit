@@ -1,5 +1,14 @@
 .DS_Store
 .build/
 .swiftpm/
-*.xcodeproj
 .vscode/
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM

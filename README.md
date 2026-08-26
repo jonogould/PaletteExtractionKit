@@ -87,6 +87,10 @@ Every technique below has a full writeup — algorithm, options reference, compl
 † Best on large flat color blocks; weaker on gradients/texture.
 ‡ Not really "extraction" — a single accent color, not a palette.
 
+## Demo app
+
+A SwiftUI iOS app exercising all 10 techniques via a picker UI lives at [`demo/`](demo/README.md) — open `demo/PaletteExtractionDemo.xcodeproj`, pick a photo, and compare palettes side by side.
+
 ## Adding a new technique
 
 This is the entire point of the architecture: a new technique needs zero changes anywhere in this package. Conform to `PaletteExtractionTechnique`, and pass an instance wherever you'd pass a built-in one.

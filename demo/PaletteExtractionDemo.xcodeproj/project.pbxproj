@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91FC49ECCB543B6BADAB8BA /* PaletteExtractionDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D968988B2D44DFB9784DBE7 /* PaletteExtractionDemoApp.swift */; };
+		90F1C0FA30D043F399ED38BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949936776FAC46A08B4B784D /* ContentView.swift */; };
+		FDE7A0C048284013B8C0AA61 /* PaletteExtractionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 803146FA9BAF4C9483B91BE8 /* PaletteExtractionKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DB381D8C3B544A2A797AC17 /* PaletteExtractionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaletteExtractionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D968988B2D44DFB9784DBE7 /* PaletteExtractionDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteExtractionDemoApp.swift; sourceTree = "<group>"; };
+		949936776FAC46A08B4B784D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06B97D981274E1E95E0656A /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+				FDE7A0C048284013B8C0AA61 /* PaletteExtractionKit in Frameworks */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C64BDA16355C43E18E6BA417 = {isa = PBXGroup; children = (
+				000E7549897C405FAA3D8264 /* PaletteExtractionDemo */,
+				4DB381D8C3B544A2A797AC17 /* PaletteExtractionDemo.app */,
+			); sourceTree = "<group>"; };
+		000E7549897C405FAA3D8264 /* PaletteExtractionDemo */ = {isa = PBXGroup; children = (
+				0D968988B2D44DFB9784DBE7 /* PaletteExtractionDemoApp.swift */,
+				949936776FAC46A08B4B784D /* ContentView.swift */,
+			); path = PaletteExtractionDemo; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445AE32530BC4C229601DC84 /* PaletteExtractionDemo */ = {isa = PBXNativeTarget; buildConfigurationList = 1B066FC5E65543E28F728E0C /* Build configuration list for PBXNativeTarget "PaletteExtractionDemo" */; buildPhases = (
+				0CD881E7AC1946CB8257CBE3 /* Sources */,
+				A06B97D981274E1E95E0656A /* Frameworks */,
+				FDCD86962C69483E953032E0 /* Resources */,
+			); buildRules = (
+			); dependencies = (
+			); name = PaletteExtractionDemo; packageProductDependencies = (
+				803146FA9BAF4C9483B91BE8 /* PaletteExtractionKit */,
+			); productName = PaletteExtractionDemo; productReference = 4DB381D8C3B544A2A797AC17 /* PaletteExtractionDemo.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4266AED64D2D48F2AF74BE28 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = { 445AE32530BC4C229601DC84 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = BCD7761F74C44730A1F8EB64 /* Build configuration list for PBXProject "PaletteExtractionDemo" */; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = C64BDA16355C43E18E6BA417; packageReferences = (
+				18FB50AFCF0A45C4818FEC3D /* XCLocalSwiftPackageReference "PaletteExtractionKit" */,
+			); productRefGroup = C64BDA16355C43E18E6BA417; projectDirPath = ""; projectRoot = ""; targets = (
+				445AE32530BC4C229601DC84 /* PaletteExtractionDemo */,
+			); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCD86962C69483E953032E0 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD881E7AC1946CB8257CBE3 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C91FC49ECCB543B6BADAB8BA /* PaletteExtractionDemoApp.swift in Sources */,
+				90F1C0FA30D043F399ED38BF /* ContentView.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EB9463A7276403C9E5853F6 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_OPTIMIZATION_LEVEL = 0; IPHONEOS_DEPLOYMENT_TARGET = 18.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Debug; };
+		5B852D84C54B4967A1D6A988 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_STRICT_OBJC_MSGSEND = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 6.0; }; name = Release; };
+		6D700F7DB09E489D9169E0A7 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "Choose photos to extract palettes."; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos to extract palettes."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jonogould.paletteextractiondemo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A6586359FCA84089984AECC1 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "Choose photos to extract palettes."; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos to extract palettes."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jonogould.paletteextractiondemo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD7761F74C44730A1F8EB64 /* Build configuration list for PBXProject "PaletteExtractionDemo" */ = {isa = XCConfigurationList; buildConfigurations = (9EB9463A7276403C9E5853F6, 5B852D84C54B4967A1D6A988); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		1B066FC5E65543E28F728E0C /* Build configuration list for PBXNativeTarget "PaletteExtractionDemo" */ = {isa = XCConfigurationList; buildConfigurations = (6D700F7DB09E489D9169E0A7, A6586359FCA84089984AECC1); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		18FB50AFCF0A45C4818FEC3D /* XCLocalSwiftPackageReference "PaletteExtractionKit" */ = {isa = XCLocalSwiftPackageReference; relativePath = ..; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		803146FA9BAF4C9483B91BE8 /* PaletteExtractionKit */ = {isa = XCSwiftPackageProductDependency; package = 18FB50AFCF0A45C4818FEC3D /* XCLocalSwiftPackageReference "PaletteExtractionKit" */; productName = PaletteExtractionKit; };
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 4266AED64D2D48F2AF74BE28 /* Project object */;
+}
