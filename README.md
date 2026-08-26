@@ -41,7 +41,7 @@ No enum to extend, no switch statement to edit, no central registry. A technique
 Swift Package Manager, via Xcode (File → Add Package Dependencies) or `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/jonogould/PaletteExtractionKit.git", from: "0.1.0")
+.package(url: "https://github.com/jonogould/PaletteExtractionKit.git", from: "0.2.0")
 ```
 
 ## Usage
